@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var intervalId;
-    var colors = ["#ff0000", "#00ff00", "#0000ff"]; //color lists
+    var colors = ["#cd5c5c", "#e9967a", "#bdb76b", "#ffa07a"]; //color lists
   
     function changeBackgroundColor() {
       var colorIndex = 0;
