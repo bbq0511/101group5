@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/lab.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/lab.js" defer></script>
+  <style>
+    body {
+      transition: background-color 6s ease;
+    }
+    .content {
+      display: none;
+    }
+    .expanded {
+      display: block;
+    }
+    .toggle-button {
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+  <button id="startButton">Start</button>
+  <button id="stopButton">Stop</button>
+  <h1>Welcome to our Webpage!</h1>
+  <!-- at the top of the main page, middle-->
+</head>
+
+<body>
+  <h2>Main page</h2>
+  <div>
+    <h2>EXPLORING INDENTITIES</h2>
+    <p class="toggle-button">Logan De Vries</p>
+    <div class="content">
+      <p>Additional content for Logan De Vries</p>
+    </div>
+    <p class="toggle-button">Baoqi Yu</p>
+    <div class="content">
+      <p>Additional content for Baoqi Yu</p>
+    </div>
+    <p class="toggle-button">Alejandro Hernandez</p>
+    <div class="content">
+      <p>Additional content for Alejandro Hernandez</p>
+    </div>
+    <p class="toggle-button">Amaya Garcia</p>
+    <div class="content">
+      <p>Additional content for Amaya Garcia</p>
+    </div>
+    <p class="toggle-button">Gabriela Rioja</p>
+    <div class="content">
+      <p>Additional content for Gabriela Rioja</p>
+    </div>
+  </div>
+
+</body>
+</html>
