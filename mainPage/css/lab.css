@@ -2,7 +2,17 @@ h1 {
     position: relative;
     text-align: center;
     font-size: 100px;
+    margin-top: 0px;
     font-family: paprus, fantasy ;
     font-style: bold;
     color: lightpink;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    font-family: paprus, fantasy ;
+    font-style: bold;
+    color: lightpink; 
 }
