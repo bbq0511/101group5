@@ -1,0 +1,34 @@
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 0px;
+    font-family: paprus, fantasy;
+    font-style: bold;
+    color: rgb(67, 161, 220);
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    font-family: paprus, fantasy ;
+    font-style: bold;
+    color: lightpink; 
+}
+
+.toggle-button {
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+    font-family: paprus, fantasy;
+    color: orange;
+}
+
+.content {
+    font-size: 33px;
+    position: relative;
+    text-align: center;
+    font-family: paprus, fantasy;
+    color: rgb(48, 44, 36);
+}
