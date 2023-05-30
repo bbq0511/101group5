@@ -1,0 +1,49 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 650px;
+  border: solid 1px darkblue;
+  background-color: azure;
+  }
+
+.major-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px darkblue;
+  background-color: azure;
+  height: 75px;
+  }
+
+body {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  background-color: mintcream;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'futura';
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+h2 {
+  font-family: 'futura';
+  text-align: center;
+  font-style: oblique;
+}
+
+p {
+  font-family: 'futura';
+}
+
+img {
+  margin-left: 150px;
+  height: 250px;
+}
+
+.container{
+  display: inline;
+  align-items:right;
+}
