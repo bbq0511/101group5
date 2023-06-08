@@ -40,33 +40,14 @@ p {
     top: -10px;
 }
 
+#yesButton {
+    position: relative;
+    top: -30px;
+    left: 500px;
+  }
 
-
-#content img[src^="img/self"],
-#content img[src^="img/kitten"] {
-  width: 300px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-/* Adjust the position and size of the boxing and food images */
-#content img[src^="gif/p"],
-#content img[src^="img/food"] {
-  width: 600px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-
-
-/* Adjust the position and size of the buttons */
-#yesButton,
-#noButton {
-  display: block;
-  margin: 0 auto;
-  padding: 100px 20px;
-  font-size: 50px;
-  width: 150px;
-}
-
-
+  #noButton {
+    position: relative;
+    top: -30px;
+    left: 500px;
+  }
