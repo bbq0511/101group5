@@ -36,7 +36,8 @@ h2 {
 p {
     font-style: bold;
     position: relative;
-    left: 200px;
+    left: 1200px;
+    top: 10px;
     font-family: Arial, Arial Black;
     font-style: bold;
     color: rgb(13, 14, 15);
