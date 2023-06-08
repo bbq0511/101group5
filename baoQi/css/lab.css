@@ -40,21 +40,8 @@ p {
     top: -10px;
 }
 
-#yesButton {
-    position: relative;
-    top: -30px;
-    left: 500px;
-  }
 
-  #noButton {
-    position: relative;
-    top: -30px;
-    left: 601px;
-  }
 
-  /* lab.css */
-
-/* Adjust the position and size of the self and pet images */
 #content img[src^="img/self"],
 #content img[src^="img/kitten"] {
   width: 300px;
@@ -65,20 +52,20 @@ p {
 /* Adjust the position and size of the boxing and food images */
 #content img[src^="gif/p"],
 #content img[src^="img/food"] {
-  width: 500px;
+  width: 600px;
   height: auto;
   margin-bottom: 10px;
 }
 
-/* lab.css */
+
 
 /* Adjust the position and size of the buttons */
 #yesButton,
 #noButton {
   display: block;
   margin: 0 auto;
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 100px 20px;
+  font-size: 50px;
   width: 150px;
 }
 
