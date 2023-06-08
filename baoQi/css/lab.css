@@ -51,3 +51,21 @@ p {
     top: -30px;
     left: 601px;
   }
+
+  /* lab.css */
+
+/* Adjust the position and size of the self and pet images */
+#content img[src^="img/self"],
+#content img[src^="img/kitten"] {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Adjust the position and size of the boxing and food images */
+#content img[src^="gif/p"],
+#content img[src^="img/food"] {
+  width: 500px;
+  height: auto;
+  margin-bottom: 10px;
+}
