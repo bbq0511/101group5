@@ -69,3 +69,17 @@ p {
   height: auto;
   margin-bottom: 10px;
 }
+
+/* lab.css */
+
+/* Adjust the position and size of the buttons */
+#yesButton,
+#noButton {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  width: 150px;
+}
+
+
