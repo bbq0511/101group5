@@ -9,7 +9,7 @@ section {
 }
 
 h {
-    font-size: 100px;
+    font-size: 77px;
     position: relative;
     text-align: center;
 }
@@ -20,5 +20,34 @@ body {
 
 h1 {
     transition: color 0.5s ease;
+    font-size: 44px;
+    position: relative;
+    text-align: center;
 }
-  
+
+img {
+    position: relative;
+    left: 300px;
+    top: -22px;
+    height: 500px;
+    width: 320px;
+}
+
+p {
+    font-size: 22px;
+    position:relative;
+    text-align: center;
+    top: -10px;
+}
+
+#yesButton {
+    position: relative;
+    top: -30px;
+    left: 500px;
+  }
+
+  #noButton {
+    position: relative;
+    top: -30px;
+    left: 600px;
+  }

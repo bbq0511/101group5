@@ -12,18 +12,13 @@ $(document).ready(function() {
       }, 1000); // Change color every 1 second
     }
   
-    $("#startButton").click(function() {
-      changeBackgroundColor();
-    });
-  
-    $("#stopButton").click(function() {
-      clearInterval(intervalId);
-    });
-  });
+    
 
   $(document).ready(function() {
     $(".toggle-button").click(function() {
       $(this).next(".content").toggleClass("expanded");
     });
   });
+
+  
   

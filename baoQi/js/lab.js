@@ -31,4 +31,14 @@ function getRandomColor() {
   
   // Change colors every 3 seconds
   setInterval(changeColors, 3000);
+
+  $(document).ready(function() {
+    $('#yesButton').click(function() {
+      $('#result').text('Excellent!');
+    });
+  
+    $('#noButton').click(function() {
+      $('#result').text('Choose Again!!!');
+    });
+  });
   
