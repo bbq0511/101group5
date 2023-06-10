@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/lab.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="js/lab.js" defer></script>
-    <style id="colorStyle">
-    body {
-      background-color: #df9a9a; 
-      color: #ffffff; 
-    }
-  </style>
-    <h>Hey! Are you ready? Welcome to My World!</h> 
+  <link rel="stylesheet" href="css/lab.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/lab.js" defer></script>
 </head>
-
 <body>
-    <section>
-    <div id = "content">
-        <h1>Self-Introduction</h1>
-        <img src="img/self.jpg">
-        <img src="img/s2.jpg">
-        <source src="path/to/video.mp4" type="video/mp4">
-        <p>Hi everyone, I'm Baoqi Yu and I'm from China. I'm junior AGMP student. </p>
+  <h1>Hey! Are you ready? Welcome to My World!</h1>
+  
+  <section>
+    <div id="content1">
+      <h1>Self-Introduction</h1>
+      <img src="img/self.jpg">
+      <img src="img/s2.jpg">
+      <p>Hi everyone, I'm Baoqi Yu and I'm a junior AGMP student.</p>
+    </div>
+  </section>
+  
+  <section class="pet-section">
+    <div id="content2">
+      <h1>My Pet</h1>
+      <p>The name of my kitten is Maotai (a famous Chinese wine name).</p>
+      <img src="img/kitten1.jpg" style="left: 300px">
+      <img src="img/kitten2.jpg" style="left: 300px">
+    </div>
+  </section>
+  
+  <section class="interests-section">
+    <div id="content3">
+      <h1>Interests</h1>
+      <p>I'm fond of playing all kinds of video games such as CSGO, GTA5, and Battleground. Also, I like boxing and cooking. This animation is I create for myself by using Photoshop and Affter Effect.</p>
+      <img src="gif/p4.gif" alt="boxing" style="width: 500px; top: 4px">
+      <img src="img/food1.jpg" style="top: -250px; left: 342px; height: 250px; width: 250px">
+      <img src="img/food2.jpg" style="top: 8px; left: 88px; height: 250px; width: 250px">
+  </div>
+  </section>
+
+  <section class="vg-section">
+    <div id = "content4">
+      <h1>Video Games</h1>
+      <p>Do you like video games?</p>
+      <button id="yesButton">Yes</button>
+      <button id="noButton">No</button>
+      <p id="result"></p>
     </div>
 
-    <div id = "content">
-        <h1>My pet</h1>
-        <p>The name of my kitten is Maotai(a famous Chinese wine name).</p>
-        <img src="img/kitten1.jpg" style = "left: 300px">
-        <img src="img/kitten2.jpg" style = "left: 300px">
-    </div>
+    <div id="buttons"></div>
+    <div id="contentContainer"></div>
+    <h3>
+    <a href="https://blog.nationalmuseum.ch/en/2020/01/the-history-of-video-games/">History of Video Games</a>
+    </h3>
+    
+    <h3>
+      <a href="hhttps://www.cgspectrum.com/blog/game-development-process">Development of Video Games</a>
+      </h3>
 
-    <div id = "content">
-        <h1>Interets</h1>
-        <p>I'm fond of playing all kinds of video games such as CSGO, GTA5 and Battleground. Also, I like boxing and cooking.</p>
-        <img src="gif/p4.gif" alt="boxing" style="width: 500px; top: 4px ">
-        <img src="img/food1.jpg" style = "top: -250px; left: 342px; height: 250px; width: 250px">
-        <img src="img/food2.jpg" style = "top: 8px; left: 88px; height: 250px; width: 250px">
-    </div>
-
-    <div id = "content">
-        <h1>Video Games</h1>
-        <p>Do you like video games?</p>
-        <button id="yesButton">Yes</button>
-        <button id="noButton">No</button>
-        <p id="result"></p>
-    </div>
-
-    </div>
+    <h3>
+      <a href="https://www.ted.com/playlists/661/the_illuminating_benefits_of_videos_games">Videos from TED Talk</a>
+    </h3>
     </section>
 </body>
 </html>

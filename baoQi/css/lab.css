@@ -8,6 +8,18 @@ section {
     margin: 0 auto;
 }
 
+.pet-section {
+    background-color: #9adfdf;
+  }
+
+.interests-section {
+  background-color: #f09adf;
+}
+
+.vg-section{
+    background-color: aquamarine;
+}
+
 h {
     font-size: 77px;
     position: relative;
@@ -20,7 +32,14 @@ body {
 
 h1 {
     transition: color 0.5s ease;
-    font-size: 44px;
+    font-size: 66px;
+    position: relative;
+    text-align: center;
+    font-family: Marker Felt, fantasy;
+    color: coral
+}
+
+h2 {
     position: relative;
     text-align: center;
 }
@@ -34,20 +53,57 @@ img {
 }
 
 p {
-    font-size: 22px;
+    font-size: 28px;
     position:relative;
     text-align: center;
     top: -10px;
+    font-family: Chalkduster, fantasy;
+    color: olivedrab
 }
 
 #yesButton {
     position: relative;
-    top: -30px;
-    left: 500px;
+    top: -35px;
+    left: 420px;
+    font-size: 66px;
+    font-family: Impact, fantasy;
   }
 
   #noButton {
     position: relative;
-    top: -30px;
+    top: -35px;
     left: 500px;
+    font-size: 66px;
+    font-family: Impact, fantasy;
   }
+  
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  #buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  #contentContainer {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  h3 {
+    transition: color 0.5s ease;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    font-family: Trattatello, fantasy;
+    color: steelblue
+  }
+ 
+ 
