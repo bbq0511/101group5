@@ -63,7 +63,7 @@ p {
 
 #yesButton {
     position: relative;
-    top: -35px;
+    top: -25px;
     left: 420px;
     font-size: 66px;
     font-family: Impact, fantasy;
@@ -71,7 +71,7 @@ p {
 
   #noButton {
     position: relative;
-    top: -35px;
+    top: -25px;
     left: 500px;
     font-size: 66px;
     font-family: Impact, fantasy;
@@ -105,5 +105,15 @@ p {
     font-family: Trattatello, fantasy;
     color: steelblue
   }
+
+  h4 {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+    color: pink
+  }
+
+
  
  

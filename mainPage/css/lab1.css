@@ -12,7 +12,7 @@ h2 {
     position: relative;
     text-align: center;
     font-size: 55px;
-    font-family: paprus, fantasy ;
+    font-family: paprus, fantasy;
     font-style: bold;
     color: lightpink; 
 }
@@ -23,6 +23,7 @@ h2 {
     text-align: center;
     font-family: paprus, fantasy;
     color: orange;
+    font-family: Chalkduster, fantasy;
 }
 
 .content {
@@ -31,4 +32,10 @@ h2 {
     text-align: center;
     font-family: paprus, fantasy;
     color: rgb(48, 44, 36);
+}
+
+p {
+    position: relative;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
 }
