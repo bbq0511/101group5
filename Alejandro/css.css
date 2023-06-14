@@ -1,6 +1,26 @@
 body {
   margin: 10px;
   padding: 10px;
-  background-color: azure;
+  background-color: #f0ffff;
 }
 
+.minor-section {
+  margin: 10px;
+  padding: 10px;
+  background-color:darkslategrey;
+}
+
+h1{
+  font-family: futura;
+  font-style: oblique;
+  color: white;
+}
+
+nav {
+  color: white;
+}
+
+h2{
+  font-family: futura;
+  font-style: oblique;
+}
